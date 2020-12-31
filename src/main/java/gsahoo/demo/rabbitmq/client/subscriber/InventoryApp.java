@@ -131,7 +131,7 @@ public class InventoryApp {
 		} else {
 			// simulate fail processing
 			Thread.sleep(2000);
-			throw new RuntimeException("simulate exception");
+			throw new RuntimeException("No Stock Available Error");
 		}
 
 	}
